@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
- <title>Cara Membuat Form Login Dengan PHP MySQLi</title>
-</head>
-<body>
- <h2>Login - Tulisan IKO</h2>
- <br />
- <!-- cek pesan notifikasi -->
+ <head>
+  <title>Cara Membuat Form Login Dengan PHP MySQLi</title>
+ </head>
+ 
+ <body>
+  <h2>Login - Tulisan IKO</h2>
+  <br />
+ 
  <?php 
  if(isset($_GET['pesan'])){
   if($_GET['pesan'] == "gagal"){
@@ -18,26 +19,34 @@
   }
  }
  ?>
- <br />
- <br />
- <form method="post" action="cek_login.php">
-  <table>
-   <tr>
-    <td>Username</td>
-    <td>:</td>
-    <td><input type="text" name="username" placeholder="Masukkan username"></td>
-   </tr>
-   <tr>
-    <td>Password</td>
-    <td>:</td>
-    <td><input type="password" name="password" placeholder="Masukkan password"></td>
-   </tr>
-   <tr>
-    <td></td>
-    <td></td>
-    <td><input type="submit" value="LOGIN"></td>
-   </tr>
-  </table>   
- </form>
-</body>
+ 
+  <br />
+ 
+  <br />
+ 
+  <form method="post" action="cek_login.php">
+  
+   <table>
+    <tr>
+     <td>Username</td>
+     <td>:</td>
+     <td><input type="text" name="username" placeholder="Masukkan username"></td>
+    </tr>
+    
+    <tr>
+     <td>Password</td>
+     <td>:</td>
+     <td><input type="password" name="password" placeholder="Masukkan password"></td>
+    </tr>
+   
+    <tr>
+     <td></td>
+     <td></td>
+     <td><input type="submit" value="LOGIN"></td>
+    </tr>
+ 
+   </table>   
+  </form>
+ </body>
+
 </html>
