@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Cara Membuat Form Login Dengan PHP MySQLi - Tulisan IKO</title>
+ <title>Cara Membuat Form Login Dengan PHP MySQLi</title>
 </head>
 <body>
  <h2>Login - Tulisan IKO</h2>
